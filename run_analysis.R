@@ -39,7 +39,7 @@ subjectDataTrain <- read.table("./train/subject_train.txt", header=FALSE,
 testData$subjectNumber <- subjectDataTest[[1]]
 trainData$subjectNumber <- subjectDataTrain[[1]]
 
-## Read the actvivity variables for both the testing and training data sets
+## Read the activity variables for both the testing and training data sets
 ## We will read the values as characters, instead of integers
 
 activityDataTest <- read.table("./test/y_test.txt",header=FALSE,
@@ -63,7 +63,7 @@ combinedData <- rbind(trainData,testData) ## End of step 1
 
 ## We will extract only those columns which have "mean()" or "std()"
 ## in the column headers
-## Of course, we need to retain the subjectNumber and activityNumber
+## Of course, we need to retain the subjectNumber and activity
 ## columns, which are columns 562 and 563 in the combined data set
 
 ## Get two logical vectors. Logical vector meanPresent returns TRUE for
@@ -71,7 +71,7 @@ combinedData <- rbind(trainData,testData) ## End of step 1
 ## returns TRUE for all columns where text "std()" is present. A logical
 ## union (OR) of the two vectors is required. The last two elements in the 
 ## union vector must be set to TRUE to retain subjectNumber and
-## activityNumber
+## activity
 
 meanPresent <- grepl("(.*)(mean)(\\()(\\))(.*)", colnames(combinedData))
 stdPresent <- grepl("(.*)(std)(\\()(\\))(.*)", colnames(combinedData))
