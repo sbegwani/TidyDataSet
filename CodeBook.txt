@@ -1,0 +1,291 @@
+This data set consists of 10299 observations of 68 variables.
+
+The first 66 variables are based on feature variables in the features vector provided.
+    -  There are 66 feature variables in the features vector which have "mean()" or "std()" in their variable name.
+    -  The first 66 variables in this data set are based on these 66 feature variables
+    -  The variable names in this data set are more descriptive than those in the features vector
+    -  These variables assume double-precision real number values
+
+The 67th variable is the number of the subject and ranges from 1 to 30. It is stored in a character format.
+The 68th variable is the activity type. This is a character variable and takes one of 6 values: 
+     {"Walking","Walking Upstairs","Walking Downstairs","Sitting","Standing","Lying"}
+
+
+The entire processing logic is described in detail in the README.md file. 
+The run_analysis.R file containing the code is also elaborately commented.
+
+Provided below are the names of the 68 variables, the feature variable they are based on (for all but the last two variables), and the class of the variable.
+
+
+
+1.   Variable Name: Mean of Acceleration of Body  along the X axis - time dimension
+     Based on feature variable: tBodyAcc-mean()-X
+     Class of variable: numeric
+
+2.   Variable Name: Mean of Acceleration of Body  along the Y axis - time dimension
+     Based on feature variable: tBodyAcc-mean()-Y
+     Class of variable: numeric
+
+3.   Variable Name: Mean of Acceleration of Body  along the Z axis - time dimension
+     Based on feature variable: tBodyAcc-mean()-Z
+     Class of variable: numeric
+
+4.   Variable Name: Standard Deviation of Acceleration of Body  along the X axis - time dimension
+     Based on feature variable: tBodyAcc-std()-X
+     Class of variable: numeric
+
+5.   Variable Name: Standard Deviation of Acceleration of Body  along the Y axis - time dimension
+     Based on feature variable: tBodyAcc-std()-Y
+     Class of variable: numeric
+
+6.   Variable Name: Standard Deviation of Acceleration of Body  along the Z axis - time dimension
+     Based on feature variable: tBodyAcc-std()-Z
+     Class of variable: numeric
+
+7.   Variable Name: Mean of Gravitational Acceleration  along the X axis - time dimension
+     Based on feature variable: tGravityAcc-mean()-X
+     Class of variable: numeric
+ 
+8.   Variable Name: Mean of Gravitational Acceleration  along the Y axis - time dimension
+     Based on feature variable: tGravityAcc-mean()-Y
+     Class of variable: numeric
+
+9.   Variable Name: Mean of Gravitational Acceleration  along the Z axis - time dimension
+     Based on feature variable: tGravityAcc-mean()-Z
+     Class of variable: numeric
+
+10.  Variable Name: Standard Deviation of Gravitational Acceleration  along the X axis - time dimension
+     Based on feature variable: tGravityAcc-std()-X
+     Class of variable: numeric
+
+11.  Variable Name: Standard Deviation of Gravitational Acceleration  along the Y axis - time dimension
+     Based on feature variable: tGravityAcc-std()-Y
+     Class of variable: numeric
+
+12.  Variable Name: Standard Deviation of Gravitational Acceleration  along the Z axis - time dimension
+     Based on feature variable: tGravityAcc-std()-Z
+     Class of variable: numeric
+
+13.  Variable Name: Mean of Jerk of Body Acceleration  along the X axis - time dimension
+     Based on feature variable: tBodyAccJerk-mean()-X
+     Class of variable: numeric
+
+14.  Variable Name: Mean of Jerk of Body Acceleration  along the Y axis - time dimension
+     Based on feature variable: tBodyAccJerk-mean()-Y
+     Class of variable: numeric
+
+15.  Variable Name: Mean of Jerk of Body Acceleration  along the Z axis - time dimension
+     Based on feature variable: tBodyAccJerk-mean()-Z
+     Class of variable: numeric
+
+16.  Variable Name: Standard Deviation of Jerk of Body Acceleration  along the X axis - time dimension
+     Based on feature variable: tBodyAccJerk-std()-X
+     Class of variable: numeric
+
+17.  Variable Name: Standard Deviation of Jerk of Body Acceleration  along the Y axis - time dimension
+     Based on feature variable: tBodyAccJerk-std()-Y
+     Class of variable: numeric
+
+18.  Variable Name: Standard Deviation of Jerk of Body Acceleration  along the Z axis - time dimension
+     Based on feature variable: tBodyAccJerk-std()-Z
+     Class of variable: numeric
+
+19.  Variable Name: Mean of Body Gyration  along the X axis - time dimension
+     Based on feature variable: tBodyGyro-mean()-X
+     Class of variable: numeric
+
+20.  Variable Name: Mean of Body Gyration  along the Y axis - time dimension
+     Based on feature variable: tBodyGyro-mean()-Y
+     Class of variable: numeric
+
+21.  Variable Name: Mean of Body Gyration  along the Z axis - time dimension
+     Based on feature variable: tBodyGyro-mean()-Z
+     Class of variable: numeric
+
+22.  Variable Name: Standard Deviation of Body Gyration  along the X axis - time dimension
+     Based on feature variable: tBodyGyro-std()-X
+     Class of variable: numeric
+
+23.  Variable Name: Standard Deviation of Body Gyration  along the Y axis - time dimension
+     Based on feature variable: tBodyGyro-std()-Y
+     Class of variable: numeric
+
+24.  Variable Name: Standard Deviation of Body Gyration  along the Z axis - time dimension
+     Based on feature variable: tBodyGyro-std()-Z
+     Class of variable: numeric
+
+25.  Variable Name: Mean of Jerk of Body Gyration  along the X axis - time dimension
+     Based on feature variable: tBodyGyroJerk-mean()-X
+     Class of variable: numeric
+
+26.  Variable Name: Mean of Jerk of Body Gyration  along the Y axis - time dimension
+     Based on feature variable: tBodyGyroJerk-mean()-Y
+     Class of variable: numeric
+
+27.  Variable Name: Mean of Jerk of Body Gyration  along the Z axis - time dimension
+     Based on feature variable: tBodyGyroJerk-mean()-Z
+     Class of variable: numeric
+
+28.  Variable Name: Standard Deviation of Jerk of Body Gyration  along the X axis - time dimension
+     Based on feature variable: tBodyGyroJerk-std()-X
+     Class of variable: numeric
+
+29.  Variable Name: Standard Deviation of Jerk of Body Gyration  along the Y axis - time dimension
+     Based on feature variable: tBodyGyroJerk-std()-Y
+     Class of variable: numeric
+
+30.  Variable Name: Standard Deviation of Jerk of Body Gyration  along the Z axis - time dimension
+     Based on feature variable: tBodyGyroJerk-std()-Z
+     Class of variable: numeric
+
+31.  Variable Name: Mean of Acceleration of Body Mag - time dimension
+     Based on feature variable: tBodyAccMag-mean()
+     Class of variable: numeric
+
+32.  Variable Name: Standard Deviation of Acceleration of Body Mag - time dimension
+     Based on feature variable: tBodyAccMag-std()
+     Class of variable: numeric
+
+33.  Variable Name: Mean of Gravitational Acceleration Mag - time dimension
+     Based on feature variable: tGravityAccMag-mean()
+     Class of variable: numeric
+
+34.  Variable Name: Standard Deviation of Gravitational Acceleration Mag - time dimension
+     Based on feature variable: tGravityAccMag-std()
+     Class of variable: numeric
+
+35.  Variable Name: Mean of Jerk of Body Acceleration Mag - time dimension
+     Based on feature variable: tBodyAccJerkMag-mean()
+     Class of variable: numeric
+
+36.  Variable Name: Standard Deviation of Jerk of Body Acceleration Mag - time dimension
+     Based on feature variable: tBodyAccJerkMag-std()
+     Class of variable: numeric
+
+37.  Variable Name: Mean of Body Gyration Mag - time dimension
+     Based on feature variable: tBodyGyroMag-mean()
+     Class of variable: numeric
+
+38.  Variable Name: Standard Deviation of Body Gyration Mag - time dimension
+     Based on feature variable: tBodyGyroMag-std()
+     Class of variable: numeric
+
+39.  Variable Name: Mean of Jerk of Body Gyration Mag - time dimension
+     Based on feature variable: tBodyGyroJerkMag-mean()
+     Class of variable: numeric
+
+40.  Variable Name: Standard Deviation of Jerk of Body Gyration Mag - time dimension
+     Based on feature variable: tBodyGyroJerkMag-std()
+     Class of variable: numeric
+
+41.  Variable Name: Mean of Acceleration of Body  along the X axis - time dimension
+     Based on feature variable: fBodyAcc-mean()-X
+     Class of variable: numeric
+
+42.  Variable Name: Mean of Acceleration of Body  along the Y axis - time dimension
+     Based on feature variable: fBodyAcc-mean()-Y
+     Class of variable: numeric
+
+43.  Variable Name: Mean of Acceleration of Body  along the Z axis - time dimension
+     Based on feature variable: fBodyAcc-mean()-Z
+     Class of variable: numeric
+
+44.  Variable Name: Standard Deviation of Acceleration of Body  along the X axis - time dimension
+     Based on feature variable: fBodyAcc-std()-X
+     Class of variable: numeric
+
+45.  Variable Name: Standard Deviation of Acceleration of Body  along the Y axis - time dimension
+     Based on feature variable: fBodyAcc-std()-Y
+     Class of variable: numeric
+
+46.  Variable Name: Standard Deviation of Acceleration of Body  along the Z axis - time dimension
+     Based on feature variable: fBodyAcc-std()-Z
+     Class of variable: numeric
+
+47.  Variable Name: Mean of Jerk of Body Acceleration  along the X axis - time dimension
+     Based on feature variable: fBodyAccJerk-mean()-X
+     Class of variable: numeric
+
+48.  Variable Name: Mean of Jerk of Body Acceleration  along the Y axis - time dimension
+     Based on feature variable: fBodyAccJerk-mean()-Y
+     Class of variable: numeric
+
+49.  Variable Name: Mean of Jerk of Body Acceleration  along the Z axis - time dimension
+     Based on feature variable: fBodyAccJerk-mean()-Z
+     Class of variable: numeric
+
+50.  Variable Name: Standard Deviation of Jerk of Body Acceleration  along the X axis - time dimension
+     Based on feature variable: fBodyAccJerk-std()-X
+     Class of variable: numeric
+
+51.  Variable Name: Standard Deviation of Jerk of Body Acceleration  along the Y axis - time dimension
+     Based on feature variable: fBodyAccJerk-std()-Y
+     Class of variable: numeric
+
+52.  Variable Name: Standard Deviation of Jerk of Body Acceleration  along the Z axis - time dimension
+     Based on feature variable: fBodyAccJerk-std()-Z
+     Class of variable: numeric
+
+53.  Variable Name: Mean of Body Gyration  along the X axis - time dimension
+     Based on feature variable: fBodyGyro-mean()-X
+     Class of variable: numeric
+
+54.  Variable Name: Mean of Body Gyration  along the Y axis - time dimension
+     Based on feature variable: fBodyGyro-mean()-Y
+     Class of variable: numeric
+
+55.  Variable Name: Mean of Body Gyration  along the Z axis - time dimension
+     Based on feature variable: fBodyGyro-mean()-Z
+     Class of variable: numeric
+
+56.  Variable Name: Standard Deviation of Body Gyration  along the X axis - time dimension
+     Based on feature variable: fBodyGyro-std()-X
+     Class of variable: numeric
+
+57.  Variable Name: Standard Deviation of Body Gyration  along the Y axis - time dimension
+     Based on feature variable: fBodyGyro-std()-Y
+     Class of variable: numeric
+
+58.  Variable Name: Standard Deviation of Body Gyration  along the Z axis - time dimension
+     Based on feature variable: fBodyGyro-std()-Z
+     Class of variable: numeric
+
+59.  Variable Name: Mean of Acceleration of Body Mag - time dimension
+     Based on feature variable: fBodyAccMag-mean()
+     Class of variable: numeric
+
+60.  Variable Name: Standard Deviation of Acceleration of Body Mag - time dimension
+     Based on feature variable: fBodyAccMag-std()
+     Class of variable: numeric
+
+61.  Variable Name: Mean ofBody Jerk of Body Acceleration Mag - time dimension
+     Based on feature variable: fBodyBodyAccJerkMag-mean()
+     Class of variable: numeric
+
+62.  Variable Name: Standard Deviation ofBody Jerk of Body Acceleration Mag - time dimension
+     Based on feature variable: fBodyBodyAccJerkMag-std()
+     Class of variable: numeric
+
+63.  Variable Name: Mean ofBody Body Gyration Mag - time dimension
+     Based on feature variable: fBodyBodyGyroMag-mean()
+     Class of variable: numeric
+
+64.  Variable Name: Standard Deviation ofBody Body Gyration Mag - time dimension
+     Based on feature variable: fBodyBodyGyroMag-std()
+     Class of variable: numeric
+
+65.  Variable Name: Mean ofBody Jerk of Body Gyration Mag - time dimension
+     Based on feature variable: fBodyBodyGyroJerkMag-mean()
+     Class of variable: numeric
+
+66.  Variable Name: Standard Deviation ofBody Jerk of Body Gyration Mag - time dimension
+     Based on feature variable: fBodyBodyGyroJerkMag-std()
+     Class of variable: numeric
+
+67.  Variable Name: subjectNumber
+     Class of variable: character
+
+68.  Variable Name: activity
+     Class of variable: character
+
+
